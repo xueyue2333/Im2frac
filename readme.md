@@ -27,6 +27,7 @@ Convert multi-angle 2-D images into 3-D point clouds and extract fracture surfac
 ### 3.1 Generate 3-D Point Cloud (Python)
 
 ```bash
+cd im2pcd
 python main.py --init_path ../im2pcd/example_data/data
 ```
 
@@ -37,3 +38,4 @@ python main.py --init_path ../im2pcd/example_data/data
 | **Input** | After step 3.1, the generated `.pcd` files are saved in `im2pcd/outputs`. |
 | **Launch MATLAB** | Run `pcd2frac/mainFun.m`.                                                 |
 
+Multiple pcd files will be exported. View it using point cloud visualization software such as cloudCompare.
