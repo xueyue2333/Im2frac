@@ -36,7 +36,7 @@ python main.py --init_path ../im2pcd/example_data/data
 | Step | Instruction                                                               |
 |------|---------------------------------------------------------------------------|
 | **Input** | After step 3.1, the generated `.pcd` files are saved in `im2pcd/outputs`. |
-| **Launch MATLAB** | Run `pcd2frac/mainFun.m`.                                                 |
+| **Launch MATLAB** | Run `pcd2frac/main_Fun.m`.                                                |
 
 Multiple pcd files will be exported. View it using point cloud visualization software such as cloudCompare.
 
