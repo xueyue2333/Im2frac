@@ -39,3 +39,4 @@ python main.py --init_path ../im2pcd/example_data/data
 | **Launch MATLAB** | Run `pcd2frac/mainFun.m`.                                                 |
 
 Multiple pcd files will be exported. View it using point cloud visualization software such as cloudCompare.
+
